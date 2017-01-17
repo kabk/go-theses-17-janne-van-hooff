@@ -1,0 +1,335 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Antique-Olive-Std-Roman_3869.ttf);
+
+}
+@page {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 2cm;
+    margin-right: 2cm;  
+}
+
+p { text-align: center;
+    font-size: 15px;
+}
+
+/* Navigatie bovenin */
+#titelpage{
+    width:300px;
+    height: 20px;
+    margin-left: 480px;
+}
+.titel p {
+    font-family:myFirstFont;
+    font-size: 20px;
+    margin-top: 20px;
+    color:black;
+    float:left;
+    margin-top:-31px;
+    
+}
+
+#print{
+    margin-top: px;
+    margin-right:0px;
+    margin-left:5px;
+    width:110px;
+    height:20px;
+    text-decoration:none;
+}
+
+#print a{
+    font-family:myFirstFont;
+    font-size: 12px;
+    text-align: center;
+    color:black;
+    text-decoration:none;  
+}
+
+#print p{
+    font-family:myFirstFont;
+    font-size: 12px;
+    text-align: left;
+    color:black;
+    text-decoration:none; 
+}
+
+#naam2{
+    margin-top:-31px;
+    margin-left: 833px;
+    width:400px;
+    height:20px;  
+}
+
+#naam2 p{
+    font-family:myFirstFont;
+    font-size:12px;
+    color:mediumblue;
+    text-align: right;
+}
+
+/* Voorblad met titel */
+
+h2{
+    font-family:myFirstFont;
+    font-size: 50px;
+    float:left; 
+    width: 500px;
+    page-break-inside: always;
+}
+
+
+.titelpagina p{
+    font-family: myFirstFont;
+    font-size:25px;
+    text-align:left;
+}
+
+.titelpagina{
+    float:left;
+    width: 500px;
+    margin-top: -50px;
+
+}
+
+.ondertitel p{
+    font-family: myFirstFont;
+    font-size:15px;
+    text-align: left;
+}
+
+.ondertitel{
+    float:left;
+    width: 500px;
+}
+
+/* inhoud van de pagina's */
+
+.textinhoud{
+    width:500px;
+    margin-left: 500px;
+}
+
+.textinhoud p{
+    font-family: myFirstFont;
+    font-size: 12px;
+    line-height: 20px;
+    float:left;
+    text-align: left;
+
+}
+
+.pagetitel p{
+    font-family: myFirstFont;
+    font-size:12px;
+    color:black;
+    width:200px;
+    text-align:left;
+}
+
+.pagetitel{
+    float:left;
+    width: 500px;
+    margin-left: 500px;
+
+}
+
+.index p{
+    font-family: myFirstFont;
+    font-size:10px;
+    color:black;
+    text-align:left;
+}
+
+.index{
+    float:left;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.vraag p{
+    font-family: myFirstFont;
+    font-size:20px;
+    color:black;
+    text-align: left;
+}
+
+.vraag{
+    float:left;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.bijschrift p{
+    font-family: myFirstFont;
+    font-size:9px;
+    color:black;
+    margin-left:5px;
+    text-align: left;
+}
+
+.bijschrift{
+  float:left;
+  width: 500px;
+  margin-left: 500px;
+}
+
+.qoute{
+    font-family: myFirstFont;
+    font-size:9px;
+    color:black;
+    margin-left:5px;
+    float:left;
+    width: 500px;   
+}
+
+.bronnen{
+    float:left;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.bronnen p{
+    font-family: myFirstFont;
+    font-size:9px;
+    color:black;
+    margin-left:5px;
+    text-align: left;
+}
+
+/* images & voetnoten */
+.popups img{
+    width:320px;
+    height: 200px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    object-position: left;
+}
+
+    .voetnoot{
+    visibility: visible;
+    width: 500px;
+    
+    }
+    
+    .voetnoot p{
+    font-family: myFirstFont;
+    font-size:8px;
+    color:black; 
+    text-align: left;
+        
+    }
+}
+
+
+/* afbreken van div */
+#space {
+   page-break-after: always;
+}
+
+#space_1 {page-break-after: always;}
+
+#space_2 {
+   page-break-after: always;
+}
+
+#space_3 {
+   page-break-after: always;
+}
+
+#space_4 {
+   page-break-after: always;
+}
+
+#space_5 {
+   page-break-after: always;
+}
+
+#space_6 {
+   page-break-after: always;
+}
+
+#space_7 {
+   page-break-after: always;
+}
+
+#space_8 {
+   page-break-after: always;
+}
+
+#space_9 {
+   page-break-after: always;
+}
+
+#space_10 {
+  page-break-after: always;
+}
+
+#space_11 {
+   page-break-after: always;
+}
+
+#space_12 {
+   page-break-after: always;
+}
+
+#space_13 {
+   page-break-after: always;
+}
+
+#space_14 {
+   page-break-after: always;
+}
+
+#space_15 {
+   page-break-after: always;
+}
+
+#space_16 {
+   page-break-after: always;
+}
+
+#space_17 {
+   page-break-after: always;
+}
+
+#space_18 {
+   page-break-after: always;
+}
+
+#space_19 {
+   page-break-after: always;
+}
+
+#space_20 {
+   page-break-after: always;
+}
+
+#space_21 {
+   page-break-after: always;
+}
+
+#space_22 {
+   page-break-after: always;
+}
+
+#space_23 {
+   page-break-after: always;
+}
+
+#space_24 {
+   page-break-after: always;
+}
+
+#space_25 {
+   page-break-after:always;
+}
+
+
+
+
