@@ -26,9 +26,6 @@ function scrollert( event, direction ){ // Deze functie roepen we aan als we iet
 
         loadTile( i, offset ); // Vul de div
     }
-
-    // Animieer die zooi
-
 }
 
 function loadTile( Space,  Offset) {
@@ -62,7 +59,7 @@ $( document ).ready(function() {
      */
 
     // Als je de pijltjes gebruikt moet er iets gebeuren
-    $(window).keydown(function(e) { // De jQuery.keydown() vangt op of je op een knop drukt op je toetsenbord
+    $(window).keyup(function(e) { // De jQuery.keydown() vangt op of je op een knop drukt op je toetsenbord
 
         switch(e.which) { //Hier controleren we welke key er ingedrukt word
             case 37: // links

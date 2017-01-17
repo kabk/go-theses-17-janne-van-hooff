@@ -26,6 +26,8 @@ p { text-align: center;
     margin-top: 20px;
     color:black;
     float:left;
+    margin-top:-31px;
+    
 }
 
 #print{
@@ -35,8 +37,6 @@ p { text-align: center;
     width:110px;
     height:20px;
     text-decoration:none;
-
-
 }
 
 #print a{
@@ -76,6 +76,7 @@ h2{
     font-size: 50px;
     float:left; 
     width: 500px;
+    page-break-inside: always;
 }
 
 
@@ -116,6 +117,7 @@ h2{
     line-height: 20px;
     float:left;
     text-align: left;
+
 }
 
 .pagetitel p{
@@ -209,14 +211,125 @@ h2{
     object-position: left;
 }
 
-a.titel{
+    .voetnoot{
+    visibility: visible;
+    width: 500px;
+    
+    }
+    
+    .voetnoot p{
     font-family: myFirstFont;
-    font-size:9px;
-    color:black;
-    margin-left:5px;
+    font-size:8px;
+    color:black; 
     text-align: left;
-
+        
+    }
 }
+
+
+/* afbreken van div */
+#space {
+   page-break-after: always;
+}
+
+#space_1 {page-break-after: always;}
+
+#space_2 {
+   page-break-after: always;
+}
+
+#space_3 {
+   page-break-after: always;
+}
+
+#space_4 {
+   page-break-after: always;
+}
+
+#space_5 {
+   page-break-after: always;
+}
+
+#space_6 {
+   page-break-after: always;
+}
+
+#space_7 {
+   page-break-after: always;
+}
+
+#space_8 {
+   page-break-after: always;
+}
+
+#space_9 {
+   page-break-after: always;
+}
+
+#space_10 {
+  page-break-after: always;
+}
+
+#space_11 {
+   page-break-after: always;
+}
+
+#space_12 {
+   page-break-after: always;
+}
+
+#space_13 {
+   page-break-after: always;
+}
+
+#space_14 {
+   page-break-after: always;
+}
+
+#space_15 {
+   page-break-after: always;
+}
+
+#space_16 {
+   page-break-after: always;
+}
+
+#space_17 {
+   page-break-after: always;
+}
+
+#space_18 {
+   page-break-after: always;
+}
+
+#space_19 {
+   page-break-after: always;
+}
+
+#space_20 {
+   page-break-after: always;
+}
+
+#space_21 {
+   page-break-after: always;
+}
+
+#space_22 {
+   page-break-after: always;
+}
+
+#space_23 {
+   page-break-after: always;
+}
+
+#space_24 {
+   page-break-after: always;
+}
+
+#space_25 {
+   page-break-after:always;
+}
+
 
 
 

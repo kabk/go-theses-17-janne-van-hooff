@@ -6,7 +6,7 @@
 /*
 
 body {
-    overflow: hidden;
+overflow: hidden;
 }
 */
 
@@ -27,6 +27,100 @@ p { text-align: center;
 
 .cf:after {
     clear: both;
+}
+
+/* Voor mobiel */
+@media screen and (max-width: 800px) {
+    #leftrow{
+        display: none;
+    }
+
+    #rightrow{
+        display:none;
+    }
+
+    #midrow{
+        width:			30vw;
+        height:			100vw;
+        position:		fixed;
+        top:			100px;
+        bottom:			10px;
+        left:			10px;
+        right:			10px;
+        float:			left;
+        display:		block;
+    }
+
+    .popups{
+        display:none;
+    }
+
+
+    .voetnoot{
+        display:inherit;
+    }
+
+    .voetnoot p{
+        font-family: myFirstFont;
+        font-size:8px;
+        color:blue;
+        margin-left:5px; 
+    }
+    
+    .beeld{
+        visibility: visible;
+    }
+}
+
+/* voetnoten en beeld onderin */
+.voetnoot{
+    display:none;
+}
+
+.beeld{
+    display:none;
+}
+
+/* Allereerste pagina */
+
+}
+.hoofdtitel{
+    
+    background-color: mediumblue;   
+}
+
+.hoofdtitel p{
+    font-family:myFirstFont;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    background-color: mediumblue;
+    width:550px;
+    height: 550px;
+    margin-left: 350px;
+}
+
+.uitleg{
+    width:0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -500px;
+    background-color: mediumblue
+}
+
+.uitleg p{
+    font-family:myFirstFont;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    
+}
+
+.klik{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 600px;
 }
 
 /* Navigatie bovenin */
@@ -51,7 +145,7 @@ p { text-align: center;
     height:20px;
     text-decoration:none;
 
-    
+
 }
 
 #print a{
@@ -61,7 +155,7 @@ p { text-align: center;
     color:mediumblue;
     text-decoration:none;
 
-    
+
 }
 
 #print p{
@@ -71,7 +165,7 @@ p { text-align: center;
     color:mediumblue;
     text-decoration:none;
 
-    
+
 }
 
 #naam2{
@@ -111,22 +205,29 @@ h2{
     margin-left: 35px;
 }
 
+h2 img{
+    margin-left:10px;
+}
+
 /* Voorblad met titel */
 .titelpagina p{
-   font-family: myFirstFont;
-   font-size:26px;
-   text-align: left;
+    font-family: myFirstFont;
+    font-size:26px;
+    text-align: left;
 }
 
 .titelpagina{
-   
+
 }
 
 .ondertitel p{
-   font-family: myFirstFont;
-   font-size:15px;
-   text-align: center;
-   margin-left: 40px;
+    font-family: myFirstFont;
+    font-size:15px;
+    text-align: left;  
+}
+
+.ondertitel{
+    margin-top:5px;
 }
 
 /* inhoud van de pagina's */
@@ -138,105 +239,108 @@ h2{
 }
 
 .pagetitel p{
-   font-family: myFirstFont;
-   font-size:12px;
-   text-align: center;
-   color:black;    
+    font-family: myFirstFont;
+    font-size:12px;
+    text-align: center;
+    color:black;    
 }
 
 .index p{
-   font-family: myFirstFont;
-   font-size:10px;
-   text-align: center;
-   color:black;     
+    font-family: myFirstFont;
+    font-size:10px;
+    text-align: center;
+    color:black;     
 }
 
 .vraag p{
     font-family: myFirstFont;
-   font-size:20px;
-   text-align: center;
-   color:black;
+    font-size:20px;
+    text-align: center;
+    color:black;
     margin-top:30px;
     margin-left:5px;
 }
 
 .bijschrift p{
     font-family: myFirstFont;
-   font-size:9px;
-   text-align: center;
-   color:black;
-   margin-left:5px;
+    font-size:9px;
+    text-align: center;
+    color:black;
+    margin-left:5px;
 }
 
 .qoute{
     font-family: myFirstFont;
-   font-size:9px;
-   color:black;
-   margin-left:5px;
+    font-size:9px;
+    color:black;
+    margin-left:5px;
 }
 /* beeldmateriaal */
 #image{
-margin-left:5px; 
+    margin-left:5px; 
 }
 
 .bronnen p{
-   font-family: myFirstFont;
-   font-size:8px;
-   color:black;
-   margin-left:5px;
+    font-family: myFirstFont;
+    font-size:8px;
+    color:black;
+    margin-left:5px;
 }
 
 /* bijschriften */
 .hover-source {
-	text-decoration: none;
-	cursor:	pointer;
+    text-decoration: none;
+    cursor:	pointer;
 }
 
 .hover-source:hover {
-	color: 			mediumblue;
+    color: 			mediumblue;
 }
 
 a:visited {
-	color:			mediumblue;
+    color:			mediumblue;
 }
 
 a[title]:hover:after {
-  content: 			attr(title);
-  padding: 			4px 8px;
-  color: 			mediumblue;
-  position: 		fixed;
-  top:				auto;
-  bottom: 			0px;
-  right: 			300px;
-  z-index: 			20;
-  white-space: 		nowrap;
+    content: 		attr(title);
+    padding: 		4px 8px;
+    color: 			mediumblue;
+    position: 		fixed;
+    top:			auto;
+    bottom: 		0px;
+    right: 			300px;
+    z-index: 		20;
+    white-space: 	nowrap;
 }
 
 
 sup {
-	font-size:		10px;
+    font-size:		10px;
     color:			mediumblue;
 
 }
 
 sup:hover {
-	color:			mediumblue;
+    color:			mediumblue;
 }
 
 .popups {
-	color: mediumblue;
-	cursor: pointer;
+    color: blue;
+    cursor: pointer;
+    padding: 2px;
+    right:auto;
+    top:auto;
 }
 
 a img { 
-	height:200px;
+    height:200px;
     width:320px;
-	display: none; 
-	
+    display: none; 
+
 }
 
 a:hover img { 
-	display: block; 
+    display: block; 
 }
 
 /* verschijnen en verdwijnen van de pagina's */
@@ -299,7 +403,7 @@ body{
     background-color: white;
     margin-left: 10px;
     margin-top: -15px;	
-    
+
     overflow: auto;
 }
 
